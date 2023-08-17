@@ -175,3 +175,22 @@ main {
         text-align: center;
     }
 }
+
+@media screen and (max-width:405px) {
+    .header-hero-heading{
+        font-size: 3.6rem;
+        letter-spacing: 2.2px;
+    }
+    .header-hero-text{
+        margin-bottom: 2.8rem;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .header-container{
+        background-size: 580px 600px;
+    }
+    .header-divider{
+        margin-bottom: 11.8rem;
+    }
+}
