@@ -532,11 +532,29 @@ body {
   width: 160px;
   height: 48px;
   font-size: 1.3rem;
+  text-transform: uppercase;
+  transition: 0.3s;
   font-weight: 700;
   line-height: 18px;
   letter-spacing: 1px;
   color: var(--white-color);
   border: 1px solid var(--white-color);
+}
+
+.shop-btn {
+  font-family: "Manrope" , sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1px;
+  color: var(--black-color);
+  opacity: 70%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.3rem;
+  transition: 0.3s;
 }
 
 .active {
