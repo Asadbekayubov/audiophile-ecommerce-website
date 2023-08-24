@@ -59,6 +59,10 @@ main {
   padding-bottom: 15.8rem;
 }
 
+.header-divider{
+  margin-bottom: 12.8rem;
+}
+
 .header-hero-title {
   font-size: 1.4rem;
   font-weight: 400;
