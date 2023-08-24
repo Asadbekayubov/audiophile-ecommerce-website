@@ -567,6 +567,16 @@ body {
   margin-bottom: 20rem;
 }
 
+.site-divider {
+  width: 100%;
+  height: 1px;
+  opacity: 0.2;
+  color: #ffffff;
+  background-color: var(--white-color);
+  border: none;
+  margin-bottom: 12.8rem;
+}
+
 .sitenav {
   display: flex;
   justify-content: space-between;
@@ -612,12 +622,53 @@ body {
 }
 
 /* Main start */
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 16.8rem;
+}
+.cards-item {
+  width: 350px;
+  height: 204px;
+  top: 80px;
+  background-color: var(--pink-color);
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.cards-item-btn:hover{
+  opacity: 1;
+  color:var(--dark-brown-color) ;
+}
+
+.cards-item-img {
+  margin: auto;
+  margin-top: -8rem;
+}
+
+.cards .cards-item:nth-child(1) .cards-item-title {
+  margin-top: 3.6rem;
+  margin-bottom: 1.5rem;
+}
+.cards .cards-item:nth-child(2) .cards-item-title {
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+}
+.cards .cards-item:nth-child(3) .cards-item-title {
+  margin-top: 7rem;
+  margin-bottom: 1.5rem;
+}
+
+
 .first-product-sample {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 8rem;
-  margin-bottom: 8rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
   gap: 2rem;
 }
 
@@ -632,8 +683,6 @@ body {
   background-color:var(--pink-color) ;
 }
 
-.first-product-sample-content {
-}
 .first-product-sample-content-description {
   color: var(--dark-brown-color);
   font-size: 14px;
@@ -658,6 +707,46 @@ body {
 }
 .first-product-sample-content-btn:hover{
   background-color: var(--brown-color);
+}
+
+.margin-bottom{
+  margin-bottom: 20rem;
+}
+
+.best-audio-gear {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 14rem;
+}
+
+.best-audio-gear-content-title {
+  width: 100%;
+  max-width: 400px;
+  text-transform: uppercase;
+  margin-bottom: 3.2rem;
+}
+
+.best-audio-gear-content-title span{
+  color:var(--dark-brown-color) ;
+}
+.best-audio-gear-content-text {
+  width: 100%;
+  max-width: 445px;
+  opacity: 0.5;
+}
+.best-audio-gear-img {
+  border-radius: 1rem;
+  width: 50%;
+}
+
+.best-audio-gear-tablet-img{
+  display: none;
+}
+
+.best-audio-gear-mobile-img{
+  display: none;
 }
 
 /* Main end */
@@ -722,7 +811,8 @@ body {
   max-width: 540px;
 }
 /* FOOTER END */
- @media screen and (max-width: 945px) {
+
+@media screen and (max-width: 945px) {
   .first-product-sample-img-wrapper{
     width: 70%;
   }
@@ -758,6 +848,9 @@ body {
   .header-hero-title,
   .header-hero-text {
     text-align: center;
+  }
+  .cards{
+    gap: 1rem;
   }
   .footer-container {
     padding-top: 6rem;
@@ -800,6 +893,43 @@ body {
   .first-product-sample-content-btn{
     margin: auto;
   }
+  .margin-bottom{
+    margin-bottom: 20rem;
+  }
+  .best-audio-gear{
+    flex-direction: column-reverse;
+    margin-bottom: 9.6rem;
+  }
+  .best-audio-gear-img{
+    display: none;
+  }
+  .best-audio-gear-tablet-img{
+    display: block;
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+  }
+  .best-audio-gear-content-title {
+    width: 100%;
+    max-width: 573px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3.2rem;
+  }
+  .best-audio-gear-content-text{
+    text-align: center;
+    margin: auto;
+    max-width: 573px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .cards{
+    flex-direction: column;
+  }
+  .cards-item{
+    margin-bottom: 10rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -810,6 +940,9 @@ body {
 }
 
 @media screen and (max-width: 430px) {
+  .cards{
+    margin-bottom: 2rem;
+  }
   .footer-container {
     padding-top: 5.2rem;
     padding-bottom: 3.8rem;
@@ -844,5 +977,26 @@ body {
   .site-logo {
     margin-left: auto;
     margin-right: auto;
+  }
+  .cards-item{
+    width: 100%;
+  }
+  .cards{
+    margin-bottom: 5rem;
+  }
+  .best-audio-gear-tablet-img{
+    display: none;
+  }
+  .best-audio-gear-mobile-img{
+    border-radius: 1rem;
+    display: block;
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+  .best-audio-gear-content-title{
+    font-size: 2.8rem;
+  }
+  .best-audio-gear-content-text{
+    max-width: 327px;
   }
 }
