@@ -943,6 +943,9 @@ body {
   .cards{
     margin-bottom: 2rem;
   }
+  .site-divider{
+    margin-bottom: 0rem;
+  }
   .footer-container {
     padding-top: 5.2rem;
     padding-bottom: 3.8rem;
