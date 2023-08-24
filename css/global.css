@@ -1006,7 +1006,7 @@ body {
 @media screen and (max-width: 430px) {
   .cards {
     margin-bottom: 2rem;
-    margin-top: 20rem;
+    margin-top: 10rem;
   }
   .footer-container {
     padding-top: 5.2rem;
