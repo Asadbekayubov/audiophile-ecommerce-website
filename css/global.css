@@ -936,6 +936,7 @@ body {
   background-color: var(--brown-color);
 }
 
+
 /* Main end */
 
 /* FOOTER START */
@@ -1135,6 +1136,10 @@ body {
   }
   .add-to-card {
     justify-content: center;
+  }
+  .first-product-sample-img{
+    width: 150px;
+    height: 193px;
   }
 }
 
