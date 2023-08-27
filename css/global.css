@@ -701,6 +701,10 @@ body {
   background-color: var(--pink-color);
 }
 
+.first-product-sample-img{
+  width: 60%;
+}
+
 .first-product-sample-content-description {
   color: var(--dark-brown-color);
   font-size: 14px;
@@ -713,6 +717,7 @@ body {
   width: 100%;
   max-width: 445px;
   margin-bottom: 3.2rem;
+  text-transform: uppercase;
 }
 .first-product-sample-content-text {
   width: 100%;
